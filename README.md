@@ -1,11 +1,11 @@
-# 🔐 AES-128 Hardware Accelerator (Verilog RTL)
+# Advanced Encryption Standard(AES-128)Encryption Core Using Iterative Round Architecture using Verilog 
 
 A hardware-optimized implementation of the **Advanced Encryption Standard (AES-128)** designed for FPGA and ASIC synthesis.  
 This project follows the **FIPS-197 specification** and utilizes an **iterative architecture** to balance high throughput with hardware resource efficiency.
 
 ---
 
-## 🛰️ Project Overview
+##  Project Overview
 
 - **Algorithm:** AES-128 (128-bit block & key size)  
 - **Design Level:** Register Transfer Level (RTL)  
@@ -14,7 +14,7 @@ This project follows the **FIPS-197 specification** and utilizes an **iterative 
 
 ---
 
-## 🏗️ Hardware Architecture
+##  Hardware Architecture
 
 The AES core is designed using modular blocks to ensure area efficiency:
 
@@ -35,7 +35,7 @@ The AES core is designed using modular blocks to ensure area efficiency:
 
 ---
 
-## 🔄 AES Round Structure
+## AES Round Structure
 
 The encryption process is controlled using a **Finite State Machine (FSM)**:
 
@@ -101,14 +101,11 @@ The waveform below illustrates plaintext to ciphertext transformation:
 
 Synthesized datapath
 
-## 🧩 RTL Schematic
-
 📄 [Click here to view the schematic (PDF)](https://drive.google.com/file/d/1bLTTftvC4owJoExgG_5CigXq_8TNBErH/view?usp=drive_link)
 
 ## 🚀 Usage
 
 ### ▶️ Using Icarus Verilog
-
 
 # Compile
 iverilog -o aes_out src/*.v tb/aes_tb.v
@@ -136,7 +133,7 @@ gtkwave dump.vcd
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Gopal Padwal**  
 B.Tech – Electronics and Communication Engineering  
@@ -146,6 +143,6 @@ B.Tech – Electronics and Communication Engineering
 
 ---
 
-## 📄 License
+##  License
 
 This project is intended for **educational purposes only**.
