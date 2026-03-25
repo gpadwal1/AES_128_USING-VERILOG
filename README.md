@@ -93,7 +93,7 @@ AES_128_USING_VERILOG/
 
 The waveform below illustrates plaintext to ciphertext transformation:
 
-![AES Waveform]([https://github.com/gpadwal1/AES_128_USING-VERILOG/blob/main/output_images/waveform.png?raw=true](https://drive.google.com/file/d/1Coe6P_lZSCqeQ3Y5DF4DW6cjRTj5WltM/view?usp=drive_link))
+![AES Waveform](https://drive.google.com/uc?export=view&id=1Coe6P_lZSCqeQ3Y5DF4DW6cjRTj5WltM)
 
 ---
 
@@ -101,9 +101,9 @@ The waveform below illustrates plaintext to ciphertext transformation:
 
 Synthesized datapath
 
-![AES Schematic]([https://github.com/gpadwal1/AES_128_USING-VERILOG/blob/main/output_images/schematic.png?raw=true](https://drive.google.com/file/d/1bLTTftvC4owJoExgG_5CigXq_8TNBErH/view?usp=drive_link))
+## 🧩 RTL Schematic
 
----
+📄 [Click here to view the schematic (PDF)](https://drive.google.com/file/d/1bLTTftvC4owJoExgG_5CigXq_8TNBErH/view?usp=drive_link)
 
 ## 🚀 Usage
 
